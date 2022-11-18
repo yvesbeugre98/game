@@ -1,19 +1,12 @@
 <!--
-* Software Name : SuperCodingBall
-* Version: 1.0.0
-* SPDX-FileCopyrightText: Copyright (c) 2021 Orange
-* SPDX-License-Identifier: BSD-3-Clause
-*
-* This software is distributed under the BSD 3-Clause "New" or "Revised" License,
-* the text of which is available at https://spdx.org/licenses/BSD-3-Clause.html
-* or see the "LICENSE.txt" file for more details.
--->
-
-<div class="px-4 py-5 text-center" style="background-color: #ccffcc;">
+  Le contenue de la page d'acceuil
+ -->
+<div class="px-4 py-5 text-center" style="background-color: #19FFFF;">
   <img class="d-block mx-auto mb-4" src="../../../assets/app-icons/icon-512x512.png" alt="" width="192">
   <h1 class="display-5 fw-bold">{{appName}}</h1>
   <div class="col-lg-6 mx-auto">
-    <p class="lead mb-4">{{"HOME.MOTTO" | translate }}</p>
+    <!-- <p class="lead mb-4">{{"HOME.MOTTO" | translate }}</p> -->
+    <p class="lead mb-4">Apprendre le code tout en jouant</p>
     <div class="justify-content-sm-center">
       <button
         type="button"
@@ -21,20 +14,16 @@
         routerLink="/offline-opponents">
         {{"HOME.BUTTON_PLAY_OFFLINE" | translate }}
       </button>
-      <button
+      <!-- <button
         type="button"
         class="btn btn-danger btn-lg px-4 m-2"
         (click)='goOnline()'>
         {{"HOME.BUTTON_PLAY_ONLINE" | translate }}
-      </button>
+      </button> -->
     </div>
     <div>
       <button type="button" class="btn btn-warning btn-lg px-4 m-2"
               routerLink="/howto">{{"HOME.BUTTON_HOW_TO" | translate }}</button>
-    </div>
-    <div>
-      <button type="button" class="btn btn-outline-dark btn-lg px-4 m-2"
-              routerLink="/about">{{"HOME.BUTTON_ABOUT" | translate }}</button>
     </div>
   </div>
 </div>

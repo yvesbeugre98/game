@@ -1,5 +1,5 @@
 export const environment = {
   production: true,
 
-  APP_NAME: 'SuperCodingBall',
+  APP_NAME: 'EliteCoding',
 };
